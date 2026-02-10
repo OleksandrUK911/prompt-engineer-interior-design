@@ -1,0 +1,171 @@
+========================================
+INTERR.IO QUALITY CHECK PROMPT v2.0
+========================================
+
+ПРИЗНАЧЕННЯ:
+Цей промпт використовується для самоперевірки згенерованого результату.
+Може бути використаний з LLM для автоматичної оцінки якості або як чеклист для мануальної перевірки.
+
+
+========================================
+ПРОМПТ ДЛЯ ПЕРЕВІРКИ ЯКОСТІ
+========================================
+
+Analyze the generated interior design image and evaluate it based on the following criteria. Provide a score from 1-5 for each category and list any issues found.
+
+## 1. GEOMETRY PRESERVATION (Critical)
+Score: [ /5]
+
+Check if:
+- Original room shape and dimensions are maintained
+- All walls, windows, and doors from the input image are preserved
+- No structural elements were added or removed
+- Room proportions look natural and match the input
+
+Issues found:
+-
+
+## 2. PHOTOREALISM
+Score: [ /5]
+
+Check if:
+- Lighting appears natural and physically accurate
+- Materials have realistic textures with proper scaling
+- Shadows and reflections behave correctly
+- No AI artifacts (distortions, merged objects, floating items)
+- Overall image looks like a professional interior photo
+
+Issues found:
+-
+
+## 3. SCALE & PROPORTIONS
+Score: [ /5]
+
+Check if:
+- Furniture is appropriately sized (standard dimensions)
+- Objects are proportional to each other and the room
+- Walking space and clearances are adequate (min 60cm)
+- Ceiling height appears realistic
+- No oversized or miniature elements
+
+Issues found:
+-
+
+## 4. STYLE CONSISTENCY
+Score: [ /5]
+
+Check if:
+- All elements match the requested style
+- Color palette is coherent
+- Materials are appropriate for the style
+- Furniture and decor fit the aesthetic
+- No conflicting design languages
+
+Issues found:
+-
+
+## 5. FUNCTIONAL DESIGN
+Score: [ /5]
+
+Check if:
+- Room layout is practical and usable
+- Furniture arrangement makes sense
+- Appropriate items for the room type
+- Space is not overcrowded
+- Design serves the room's purpose
+
+Issues found:
+-
+
+## 6. BUDGET APPROPRIATENESS
+Score: [ /5]
+
+Check if:
+- Materials match the budget tier
+- Furniture quality aligns with budget
+- No luxury items in budget projects (or vice versa)
+- Overall finish level is appropriate
+
+Issues found:
+-
+
+## 7. TECHNICAL QUALITY
+Score: [ /5]
+
+Check for:
+- High resolution and clarity
+- No blurry or pixelated areas
+- Proper exposure and color balance
+- Clean composition
+- Professional photography angle
+
+Issues found:
+-
+
+
+========================================
+OVERALL ASSESSMENT
+========================================
+
+Total Score: [ /35]
+
+Rating:
+- 30-35: Excellent — Ready for client
+- 25-29: Good — Minor tweaks needed
+- 20-24: Acceptable — Needs improvements
+- 15-19: Poor — Major revisions required
+- <15: Failed — Regenerate
+
+Critical Issues (must fix):
+-
+
+Recommended Improvements:
+-
+
+Ready for delivery: YES / NO
+
+
+========================================
+АВТОМАТИЧНА ПЕРЕВІРКА (для коду)
+========================================
+
+Можна використати для автоматичної перевірки:
+
+```python
+def quality_check(generated_image, original_image, user_request):
+    """
+    Автоматична перевірка якості згенерованого дизайну
+    """
+    checks = {
+        'geometry_preserved': check_geometry(generated_image, original_image),
+        'photorealistic': check_photorealism(generated_image),
+        'proper_scale': check_scale(generated_image),
+        'style_match': check_style(generated_image, user_request['style']),
+        'functional': check_functionality(generated_image, user_request['room_type']),
+        'budget_appropriate': check_budget(generated_image, user_request['budget_tier']),
+        'high_quality': check_technical_quality(generated_image)
+    }
+    
+    return checks
+```
+
+
+========================================
+ШВИДКИЙ CHECKLIST (для ручної перевірки)
+========================================
+
+Критично важливо:
+□ Геометрія кімнати збережена
+□ Немає спотворень та артефактів
+□ Реалістичний масштаб меблів
+
+Важливо:
+□ Відповідає стилю
+□ Відповідає бюджету
+□ Функціональний дизайн
+□ Фотореалістичне зображення
+
+Бажано:
+□ Професійна композиція
+□ Гарне освітлення
+□ Естетично приємний результат

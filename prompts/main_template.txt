@@ -1,0 +1,118 @@
+========================================
+INTERR.IO MAIN PROMPT TEMPLATE v2.0
+========================================
+
+ІНСТРУКЦІЯ ДЛЯ ЗАПОВНЕННЯ:
+Замініть текст у фігурних дужках {} на конкретні значення з запиту користувача.
+
+
+========================================
+ОСНОВНИЙ ПРОМПТ
+========================================
+
+Create a photorealistic interior design rendering of a {ROOM_TYPE} in {STYLE} style.
+
+## Room Preservation (CRITICAL):
+- Maintain the EXACT room geometry: preserve all existing walls, windows, doors, and architectural features from the input image
+- Keep the same room dimensions, ceiling height, and floor area
+- Do not add or remove structural elements
+- Respect the natural light sources (windows placement and size)
+
+## Style & Mood:
+- Style: {STYLE}
+- Mood: {MOOD}
+- Color palette: {COLOR_PALETTE}
+
+## Design Requirements:
+- Budget tier: {BUDGET_TIER}
+- Room type: {ROOM_TYPE}
+- Special requirements: {SPECIAL_REQUIREMENTS}
+
+## Material & Finish Guidelines:
+- Use realistic, commercially available materials appropriate for {BUDGET_TIER} budget
+- Ensure proper material scaling (tiles, wood planks, fabric patterns should be life-size)
+- Apply physically accurate lighting and shadows
+- Include subtle imperfections for photorealism (slight wear, natural variations)
+
+## Furniture & Layout:
+- Select furniture appropriate for {ROOM_TYPE} function
+- Maintain proper scale and proportions (standard furniture dimensions)
+- Ensure practical arrangement with adequate walking space
+- Include only necessary items (avoid overcrowding)
+
+## Lighting:
+- Use natural lighting from existing windows
+- Add appropriate artificial lighting fixtures for {ROOM_TYPE}
+- Create realistic light behavior (soft shadows, ambient occlusion)
+- Match lighting mood to {MOOD} atmosphere
+
+## Quality Standards:
+- Photorealistic rendering quality
+- Professional interior photography angle and composition
+- No visible AI artifacts or distortions
+- Coherent design that follows real-world interior design principles
+
+## Context:
+This is a {BUDGET_TIER} renovation/design project for a {ROOM_TYPE}, aiming to achieve a {STYLE} aesthetic with a {MOOD} atmosphere.
+
+
+========================================
+ПРИКЛАД ЗАПОВНЕННЯ:
+========================================
+
+{ROOM_TYPE} = "living room"
+{STYLE} = "Scandinavian"
+{MOOD} = "cozy and bright"
+{BUDGET_TIER} = "mid-range"
+{COLOR_PALETTE} = "warm neutrals with sage green accents"
+{SPECIAL_REQUIREMENTS} = "must include a reading corner with natural light"
+
+
+========================================
+РЕЗУЛЬТАТ ПІСЛЯ ЗАПОВНЕННЯ:
+========================================
+
+Create a photorealistic interior design rendering of a living room in Scandinavian style.
+
+## Room Preservation (CRITICAL):
+- Maintain the EXACT room geometry: preserve all existing walls, windows, doors, and architectural features from the input image
+- Keep the same room dimensions, ceiling height, and floor area
+- Do not add or remove structural elements
+- Respect the natural light sources (windows placement and size)
+
+## Style & Mood:
+- Style: Scandinavian
+- Mood: cozy and bright
+- Color palette: warm neutrals with sage green accents
+
+## Design Requirements:
+- Budget tier: mid-range
+- Room type: living room
+- Special requirements: must include a reading corner with natural light
+
+## Material & Finish Guidelines:
+- Use realistic, commercially available materials appropriate for mid-range budget
+- Ensure proper material scaling (tiles, wood planks, fabric patterns should be life-size)
+- Apply physically accurate lighting and shadows
+- Include subtle imperfections for photorealism (slight wear, natural variations)
+
+## Furniture & Layout:
+- Select furniture appropriate for living room function
+- Maintain proper scale and proportions (standard furniture dimensions)
+- Ensure practical arrangement with adequate walking space
+- Include only necessary items (avoid overcrowding)
+
+## Lighting:
+- Use natural lighting from existing windows
+- Add appropriate artificial lighting fixtures for living room
+- Create realistic light behavior (soft shadows, ambient occlusion)
+- Match lighting mood to cozy and bright atmosphere
+
+## Quality Standards:
+- Photorealistic rendering quality
+- Professional interior photography angle and composition
+- No visible AI artifacts or distortions
+- Coherent design that follows real-world interior design principles
+
+## Context:
+This is a mid-range renovation/design project for a living room, aiming to achieve a Scandinavian aesthetic with a cozy and bright atmosphere.

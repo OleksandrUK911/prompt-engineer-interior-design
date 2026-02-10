@@ -1,0 +1,83 @@
+========================================
+INTERR.IO NEGATIVE PROMPT TEMPLATE v2.0
+========================================
+
+ПРИЗНАЧЕННЯ:
+Цей промпт використовується для запобігання типових помилок при генерації.
+Використовуйте разом з основним промптом.
+
+
+========================================
+НЕГАТИВНИЙ ПРОМПТ (BASE)
+========================================
+
+# Structural Issues:
+distorted geometry, warped walls, impossible architecture, curved floor, slanted ceiling, missing walls, extra walls, changed room shape, altered windows position, added doors, removed doors, unrealistic perspective, fish-eye distortion
+
+# Scale & Proportion Problems:
+oversized furniture, miniature objects, wrong scale, giant decorations, tiny windows, disproportionate elements, furniture too large for space, impractical layout
+
+# Material & Texture Issues:
+blurry textures, low resolution materials, repetitive patterns, obvious tiling, pixelated surfaces, plastic-looking materials, fake textures, unrealistic reflections
+
+# Lighting Problems:
+overexposed, underexposed, artificial HDR look, blown out highlights, crushed blacks, inconsistent lighting direction, multiple sun sources, unnatural shadows
+
+# AI Artifacts:
+watermark, signature, text, labels, UI elements, frame borders, distorted faces in photos/art, melted objects, merged furniture, duplicate items, floating objects
+
+# Design Quality Issues:
+cluttered space, too many decorations, messy arrangement, random objects, incoherent style mixing, cheap-looking, tacky decor, unrealistic colors
+
+# Unrealistic Elements:
+fantasy elements, sci-fi objects, impossible structures, levitating furniture, transparent walls, glowing objects without light source, magical effects
+
+
+========================================
+ДОДАТКОВІ ОБМЕЖЕННЯ ЗА БЮДЖЕТОМ:
+========================================
+
+ДЛЯ BUDGET-FRIENDLY:
+luxury materials, marble, expensive artwork, designer furniture brands, gold accents, crystal chandeliers, premium appliances
+
+ДЛЯ MID-RANGE:
+extreme luxury, custom millwork, imported exotic materials, museum-quality art
+
+ДЛЯ LUXURY:
+cheap materials, laminate flooring, plastic finishes, budget lighting fixtures
+
+
+========================================
+ДОДАТКОВІ ОБМЕЖЕННЯ ЗА ТИПОМ КІМНАТИ:
+========================================
+
+ДЛЯ BEDROOM:
+kitchen appliances, dining table, office desk (unless specified), gym equipment
+
+ДЛЯ KITCHEN:
+bed, sofa, bedroom furniture, bathroom fixtures
+
+ДЛЯ BATHROOM:
+soft furniture, carpets, bedroom items, kitchen appliances
+
+ДЛЯ LIVING ROOM:
+bed, bathroom fixtures, kitchen appliances, professional gym equipment
+
+
+========================================
+ЯК ВИКОРИСТОВУВАТИ:
+========================================
+
+1. Завжди включайте BASE негативний промпт
+2. Додайте відповідні обмеження за бюджетом
+3. Додайте відповідні обмеження за типом кімнати
+4. Об'єднайте все в один рядок через коми
+
+
+========================================
+ПРИКЛАД ФІНАЛЬНОГО НЕГАТИВНОГО ПРОМПТУ:
+========================================
+
+Для mid-range Scandinavian living room:
+
+distorted geometry, warped walls, impossible architecture, curved floor, slanted ceiling, missing walls, extra walls, changed room shape, altered windows position, added doors, removed doors, unrealistic perspective, fish-eye distortion, oversized furniture, miniature objects, wrong scale, giant decorations, tiny windows, disproportionate elements, furniture too large for space, impractical layout, blurry textures, low resolution materials, repetitive patterns, obvious tiling, pixelated surfaces, plastic-looking materials, fake textures, unrealistic reflections, overexposed, underexposed, artificial HDR look, blown out highlights, crushed shadows, inconsistent lighting direction, multiple sun sources, unnatural shadows, watermark, signature, text, labels, UI elements, frame borders, distorted faces in photos/art, melted objects, merged furniture, duplicate items, floating objects, cluttered space, too many decorations, messy arrangement, random objects, incoherent style mixing, cheap-looking, tacky decor, unrealistic colors, fantasy elements, sci-fi objects, impossible structures, levitating furniture, transparent walls, glowing objects without light source, magical effects, extreme luxury, custom millwork, imported exotic materials, museum-quality art, bed, bathroom fixtures, kitchen appliances, professional gym equipment
