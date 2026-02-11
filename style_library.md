@@ -1,4 +1,4 @@
-# Style Library — Моя Бібліотека Стилів
+# Style Library — Моя бібліотека стилів
 
 ## Огляд
 
@@ -289,3 +289,4 @@ DON'T: Ultra-modern elements, dark industrial metals, minimalism
 ---
 
 *Я планую розширювати цю бібліотеку з часом - додавати нові стилі та уточнювати існуючі на основі feedback та результатів генерацій.*
+
